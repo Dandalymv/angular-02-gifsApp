@@ -17,5 +17,8 @@ export class SidebarComponent {
     return this.historico.historial
   }
 
+  buscar(termino: string){
+    this.historico.buscarGifs(termino);
+  }
 
 }
